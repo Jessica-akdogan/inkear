@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
-import { toast } from "sonner";
 import FlickeringGridWrapper from "@/components/auth/FlickeringGridWrapper";
 import BackgroundDecor from "@/components/auth/BackgroundDecor";
 import Header from "@/components/auth/Header";
