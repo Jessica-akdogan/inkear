@@ -1,0 +1,38 @@
+
+
+/* HEADER */
+.section-header {
+  @apply text-center mb-12 xs:mb-16 animate-fade-in;
+}
+
+.section-title {
+  @apply text-2xl sm:text-3xl lg:text-5xl font-sora font-bold text-gray-900 ;
+}
+
+.section-subtitle {
+  @apply text-sm xs:text-xl text-gray-600 font-sora max-w-3xl mx-auto;
+}
+.section-p {
+  @apply text-xs xs:text-sm text-gray-600 font-sora ;
+}
+.label {
+ @apply font-sora font-medium text-gray-700;
+}
+
+/* BUTTON RESPONSIVENESS */
+.btn-responsive {
+  @apply   px-2 py-2 text-xs xs:px-8 xs:py-4 xs:text-base text-center font-sora font-semibold transition-all duration-200;
+}
+.btn-with-icon {
+  @apply   px-2 py-2 text-xs xs:px-8 xs:py-4 sm:text-base text-center font-sora font-semibold transition-all duration-200;
+}
+.btn-outline {
+  @apply px-2 py-2 text-sm xs:px-8 xs:py-4 xs:text-base md:text-lg rounded-full font-sora font-semibold transition-all duration-200 hover:scale-105;
+}
+.icon {
+  @apply  sm:ml-2 ml-0 h-4 w-4 sm:h-5 sm:w-5;
+}
+
+/* w-full xs:w-auto flex items-center justify-center */
+
+
