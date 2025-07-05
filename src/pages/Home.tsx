@@ -12,7 +12,7 @@ const Home = () => {
       <Seo
         title="Home"
         description="Home page."
-        name="Eventurelly."
+        name="Inkaer"
         type="website"
       />
       {user ? <LoggedInUser /> : <GuestUser />}

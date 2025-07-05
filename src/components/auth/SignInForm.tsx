@@ -90,7 +90,7 @@ const SignInForm = ({
           />
           <Label htmlFor="remember" className="text-xs xs:text-sm font-sora text-gray-600">Remember me</Label>
         </div>
-        <Link to="#" className="text-xs xs:text-sm font-sora text-inkaer-blue hover:text-inkaer-dark-blue">
+        <Link to="/forgot-password" className="text-xs xs:text-sm font-sora text-inkaer-blue hover:text-inkaer-dark-blue">
           Forgot password?
         </Link>
       </div>

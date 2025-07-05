@@ -20,13 +20,13 @@ const useAuthListener = () => {
         dispatch(clearUser());
       }
 
-      setAuthReady(true); // <- Set ready after checking auth
+      setAuthReady(true); 
     });
 
     return () => unsubscribe();
   }, [dispatch]);
 
-  return authReady; // <- Return auth readiness
+  return authReady; 
 };
 
 export default useAuthListener;

@@ -1,4 +1,4 @@
-import { registerUser } from "@/api/auth";
+import { registerUser } from "@/api/auth/register";
 import { db } from "@/firebase/config";
 import { setUser } from "@/redux/sessionSlice";
 import type { RegisterInput } from "@/utils/validation";

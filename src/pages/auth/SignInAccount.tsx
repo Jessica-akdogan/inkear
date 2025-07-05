@@ -6,6 +6,7 @@ import Header from "@/components/auth/Header";
 import SocialLogin from "@/components/auth/SocialLogin";
 import { useSignIn } from "@/hooks/auth/useSignIn";
 import SignInForm from "@/components/auth/SignInForm";
+import Seo from "@/components/Seo";
 
 
 const SignInAccount = () => {
@@ -26,12 +27,18 @@ const SignInAccount = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 relative overflow-hidden">
+      <Seo
+        title="Sign in Account"
+        description="Sign in Account page."
+        name="Inkaer"
+        type="website"
+      />
       <FlickeringGridWrapper />
       <BackgroundDecor />
 
       <div className="relative z-10 min-h-screen flex items-center justify-center p-4">
         <Card className="w-full max-w-md bg-white/80 backdrop-blur-sm border-gray-200 shadow-xl">
-          <Header />
+          <Header  mode="sign-in" />
           <CardContent className="space-y-6">
             <SignInForm
               handleSubmit={handleSubmit}
